@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VA-QL-Axd">
-                                <rect key="frame" x="163" y="267" width="88" height="72"/>
+                                <rect key="frame" x="105" y="275" width="205" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="255"/>
+                                <state key="normal" title="999"/>
                                 <connections>
                                     <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="qWa-sA-wbs"/>
                                 </connections>
@@ -88,10 +88,10 @@
                                     <action selector="sliderMoved" destination="BYZ-38-t0r" eventType="valueChanged" id="v2P-rq-dnx"/>
                                 </connections>
                             </slider>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="255" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kSe-Av-q0D">
-                                <rect key="frame" x="166" y="575" width="82" height="46"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="999" borderStyle="roundedRect" textAlignment="center" minimumFontSize="32" translatesAutoresizingMaskIntoConstraints="NO" id="kSe-Av-q0D">
+                                <rect key="frame" x="147" y="580" width="120" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="TextFieldEdited" destination="BYZ-38-t0r" eventType="editingChanged" id="niB-dV-vWC"/>
@@ -104,6 +104,7 @@
                     <connections>
                         <outlet property="button" destination="0VA-QL-Axd" id="S3G-GB-4XC"/>
                         <outlet property="slider" destination="0Cf-tx-um4" id="Qot-so-Apy"/>
+                        <outlet property="textField" destination="kSe-Av-q0D" id="6Wx-bZ-16C"/>
                         <outletCollection property="switches" destination="CDe-om-VzP" collectionClass="NSMutableArray" id="N17-ja-Ihs"/>
                         <outletCollection property="switches" destination="2aL-Im-Nem" collectionClass="NSMutableArray" id="jqK-V3-0A3"/>
                         <outletCollection property="switches" destination="VYz-xu-Oun" collectionClass="NSMutableArray" id="kE6-aF-nOA"/>
